@@ -1,0 +1,29 @@
+dataset: 'sports-copurchase'
+model: 'SAGE'
+hidden_dim: 64
+out_channels: 16  # Latent space dimension
+num_layers: 1
+feat: 'clip'
+runs: 1
+lr: 5e-3
+n_epochs: 10
+# checkpoint_folder: 'output/'
+# load_checkpoint_folder: None
+# dataset_finetuned: False
+# nodes_image_ratio: 0.1
+# overlap_ratio: 0.1
+# log_steps: 1
+# accum_iter_number: 1
+# batch_size: 512
+# exclude_target_degree: 0
+# num_of_neighbors: 15
+# full_neighbor: False
+# inference_mode: 'train'
+# preload_node_emb: True
+# add_self_loop: False
+# eval_dir: ''
+# use_feature: 'original'
+# use_concat: False
+# no_eval: False
+# lr_scheduler_step_size: 5
+# lr_scheduler_gamma: 0.1
